@@ -1,14 +1,55 @@
 import { useState} from 'react';
+import Head from 'next/head';
+import Router from 'next/router';
+
+
 
 function Home(){
-    return(<div>
-            <h3>Home</h3>
-            <Contador />
-            </div>
+    return(
+        <div >
+            
+                <Head>
+                <title>Jovepy</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"></link>
+        
+                </Head>
+                
+                    <nav class="navbar navbar-dark bg-dark">
+                        <form class="container-fluid justify-content-start">
+                            <button class="mx-auto btn btn-outline-light" type="button" onClick={() => Router.push('/jovepy')} >Jove.py</button>
+                            <button class="mx-auto btn btn-outline-light" type="button" onClick={() => Router.push('/caderno')} >Caderno</button>
+                        </form>
+                    </nav>
+                
+                <div class="container-fluid">
+                    <div class="col-sm-12 bg- p-3 border">
+                        <div class="row justify-content-center">
+                            <div class="d-grid gap-5 col-6 mx-auto px-auto">
+                                <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Empreenda</button>
+                                <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Opere com Derivativos</button>
+                                <button class="btn btn-primary-dark" width = "400px" type="button" onClick={() => Router.push('/jovepy')} >Invista com FI's</button>
+                                
+                                <Contador />
+                                
+                                
+                            </div>
+                        </div>
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+                <footer>
+                    <div class="text-bg-dark p-5">
+                        
+                    </div>
+                </footer>
+        </div>
+    </div>
+    
     )
 }
 
-
+  
 
 function Contador() {
     const [contador,setContador] = useState(1);
@@ -21,7 +62,10 @@ function Contador() {
             <div>{contador}</div>
             <button onClick={adicionarContador}>Adicionar</button>
         </div>
+
+        
     )
 }
+
 
 export default Home
