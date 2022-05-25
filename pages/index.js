@@ -20,7 +20,7 @@ function Home(){
                         
                             <div class="d-grid gap-5 col-6 mx-auto px-auto">
                                 <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Jove.py</button>
-                                <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Caderno</button>
+                                <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/caderno')} >Caderno</button>
                                 <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Empreenda</button>
                                 <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Opere com Derivativos</button>
                                 <button class="btn btn-primary-dark" width = "400px" type="button" onClick={() => Router.push('/jovepy')} >Invista com FI's</button>
