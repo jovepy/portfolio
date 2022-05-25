@@ -16,8 +16,8 @@ function Home(){
                 </Head>
             
                 <div class="container-fluid">
-                    <div class="col-sm-12 bg- p-3 border">
-                        <div class="row justify-content-center">
+                    <div class="position-absolute top-50 start-50 translate-middle">
+                        
                             <div class="d-grid gap-5 col-6 mx-auto px-auto">
                                 <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Jove.py</button>
                                 <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Caderno</button>
@@ -28,16 +28,11 @@ function Home(){
                                 <Contador />
                                 
                                 
-                            </div>
+                            
                         </div>
                 </div>
                 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-                <footer>
-                    <div class="text-bg-dark p-5">
-                        
-                    </div>
-                </footer>
         </div>
     </div>
     
