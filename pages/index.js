@@ -17,18 +17,13 @@ function Home(){
             
                 <div class="container-fluid">
                     <div class="position-absolute top-50 start-50 translate-middle">
-                        
                             <div class="d-grid gap-5 col-6 mx-auto px-auto">
                                 <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Jove.py</button>
                                 <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/caderno')} >Caderno</button>
                                 <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Empreenda</button>
                                 <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Opere com Derivativos</button>
-                                <button class="btn btn-primary-dark" width = "400px" type="button" onClick={() => Router.push('/jovepy')} >Invista com FI's</button>
-                                
+                                <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Invista com FI's</button>
                                 <Contador />
-                                
-                                
-                            
                         </div>
                 </div>
                 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
