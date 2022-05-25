@@ -1,8 +1,7 @@
 import { useState} from 'react';
 //import Head from 'next/head';
 import Router from 'next/router';
-
-
+import Image from 'next/image';
 
 function Home(){
     return(
@@ -19,7 +18,10 @@ function Home(){
                             <button class="btn btn-outline-light" type="button" onClick={() => Router.push('/jovepy')} >Opere com Derivativos</button>
                             <button class="btn btn-outline-light" type="button" onClick={() => Router.push('/jovepy')} >Invista com FI's</button>  
                         </div>
+                        
+
                     </div>
+                    
                 </div>
                 <div class="col-6 col-md-4"></div>
             </div>
