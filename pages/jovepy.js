@@ -1,5 +1,12 @@
+import Head from 'next/head';
+import Link from 'next/link';
+
 function jovepy() {
-    return <div>Jove.py</div>
+    return (
+      <div>jovepy
+        </div>
+    )
+  
   }
   
-  export default jovepy
+export default jovepy

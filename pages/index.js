@@ -7,34 +7,26 @@ import Router from 'next/router';
 function Home(){
     return(
         <div >
-            <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Jove.py</button>
-            <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Caderno</button>
-            <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Empreenda</button>
-            <button class="btn btn-primary-dark" type="button" onClick={() => Router.push('/jovepy')} >Opere com Derivativos</button>
-            <button class="btn btn-primary-dark" width = "400px" type="button" onClick={() => Router.push('/jovepy')} >Invista com FI's</button>   
-            <Contador />
+
+            <div class="row">
+                <div class="col-6 col-md-4"></div>
+                <div class="col-6 col-md-4">
+                    <div class="position-absolute top-50 start-50 translate-middle">
+                        <div class="d-grid gap-4">
+                            <button class="btn btn-outline-light" type="button" onClick={() => Router.push('/jovepy')} >Jove.py</button>
+                            <button class="btn btn-outline-light" type="button" onClick={() => Router.push('/jovepy')} >Caderno</button>
+                            <button class="btn btn-outline-light" type="button" onClick={() => Router.push('https://jovepy.github.io/empreenda/')} >Empreenda</button>
+                            <button class="btn btn-outline-light" type="button" onClick={() => Router.push('/jovepy')} >Opere com Derivativos</button>
+                            <button class="btn btn-outline-light" type="button" onClick={() => Router.push('/jovepy')} >Invista com FI's</button>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4"></div>
+            </div>
+            
         </div>
     
     )
 }
-
-  
-
-function Contador() {
-    const [contador,setContador] = useState(1);
-
-    function adicionarContador() {
-        setContador(contador +1);
-    }
-    return(
-        <div>
-            <div>{contador}</div>
-            <button onClick={adicionarContador}>Adicionar</button>
-        </div>
-
-        
-    )
-}
-
 
 export default Home
