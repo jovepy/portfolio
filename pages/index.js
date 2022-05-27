@@ -1,7 +1,8 @@
-import { useState} from 'react';
 //import Head from 'next/head';
 import Router from 'next/router';
 import Image from 'next/image';
+import React from 'react'
+
 
 function Home(){
     return(
@@ -18,8 +19,7 @@ function Home(){
                             <button class="btn btn-outline-light" type="button" onClick={() => Router.push('/jovepy')} >Opere com Derivativos</button>
                             <button class="btn btn-outline-light" type="button" onClick={() => Router.push('/jovepy')} >Invista com FI's</button>  
                         </div>
-                        
-
+                            inserir campos de redes sociais
                     </div>
                     
                 </div>
