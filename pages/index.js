@@ -3,6 +3,9 @@ import Router from 'next/router';
 import Image from 'next/image';
 import React from 'react'
 
+const myLoader = ({ src, width, quality }) => {
+    return `./${src}?w=${width}&q=${quality || 75}`
+  }
 
 function Home(){
     return(
@@ -18,12 +21,21 @@ function Home(){
                             <button class="btn btn-outline-light" type="button" onClick={() => Router.push('https://jovepy.github.io/empreenda/')} >Empreenda</button>
                             <button class="btn btn-outline-light" type="button" onClick={() => Router.push('/jovepy')} >Opere com Derivativos</button>
                             <button class="btn btn-outline-light" type="button" onClick={() => Router.push('/jovepy')} >Invista com FI's</button>  
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <div call="col"><button><Image loader={myLoader} src="images/linkedin.png" alt="Picture of the author" width={25} height={25}/></button></div>
+                                <div call="col"><button><Image loader={myLoader} src="images/linkedin.png" alt="Picture of the author" width={25} height={25}/></button></div>
+                                <div call="col"><button><Image loader={myLoader} src="images/linkedin.png" alt="Picture of the author" width={25} height={25}/></button></div>
+                                <div call="col"><button><Image loader={myLoader} src="images/linkedin.png" alt="Picture of the author" width={25} height={25}/></button></div>
+                                <div call="col"><button><Image loader={myLoader} src="images/linkedin.png" alt="Picture of the author" width={25} height={25}/></button></div>
+                            </div>
                         </div>
-                            inserir campos de redes sociais
+
+                        
                     </div>
                     
                 </div>
                 <div class="col-6 col-md-4"></div>
+                
             </div>
             
         </div>
