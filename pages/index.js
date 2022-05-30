@@ -7,6 +7,21 @@ const myLoader = ({ src, width, quality }) => {
     return `./${src}?w=${width}&q=${quality || 75}`
   }
 
+
+function Saudacao(){
+    var today = new Date();
+    var hourNow = today.getHours();
+    var greeting;
+    if (hourNow > 18){
+        greeting = 'Boa Noite.';
+    } else if (hourNow >= 12){
+        greeting = 'Boa Tarde.';
+    } else{
+        greeting = 'Bom dia.'
+    }
+    return (greeting);
+}
+
 function Home(){
     return (
         <div class="container-fluid">
@@ -20,6 +35,10 @@ function Home(){
                   <div class="col-6 col-md-4">
                       <div class="position-absolute top-50 start-50 translate-middle">
                           <div class="d-grid gap-4">
+                              <div class='greeting'>
+                                    <h1 ><Saudacao /> Seja bem-vindo ao meu ecossistema</h1>
+                                    <p> Aqui você será redirecionado para todos os meus projetos</p>
+                              </div>
                               <button class="btn btn-outline-light" type="button" onClick={() => Router.push('/jovepy')} >Jove.py</button>
                               <button class="btn btn-outline-light" type="button" onClick={() => Router.push('/caderno')} >Caderno</button>
                               <button class="btn btn-outline-light" type="button" onClick={() => Router.push('https://jovepy.github.io/empreenda/')} >Empreenda</button>
