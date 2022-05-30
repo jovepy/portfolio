@@ -1,5 +1,12 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
+import React from 'react'
+
+const myLoader = ({ src, width, quality }) => {
+  return `./${src}?w=${width}&q=${quality || 75}`
+}
+
 
 function caderno() {
   return (

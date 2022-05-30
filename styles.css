@@ -18,6 +18,7 @@
     top: 0;
     left: 0;
     z-index: -3;
+    overflow: scroll;
 }
 .bg:before {
     content: "";
@@ -29,6 +30,7 @@
     top: 0;
     left: 0;
     opacity: 0.3;
+    overflow: scroll
 }
 @keyframes sf-fly-by-1 {
     from {
@@ -69,6 +71,7 @@
     perspective: 1600px;
     -webkit-perspective: 1600px;
     z-index: -1;
+    overflow: scroll;
 }
 .star-field .layer {
     box-shadow: -411px -476px #cccccc, 777px -407px #d4d4d4, -387px -477px #fcfcfc, -91px -235px #d4d4d4, 491px -460px #f7f7f7, 892px -128px #f7f7f7, 758px -277px #ededed, 596px 378px #cccccc, 647px 423px whitesmoke, 183px 389px #c7c7c7,
