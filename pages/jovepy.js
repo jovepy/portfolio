@@ -34,11 +34,8 @@ function jovepy() {
                                       <p class="font-monospace"> >>>26 anos, Graduando em Economia e Desenvolvedor Python</p>
                                       <p class="card-text"><small class="text-muted">atualizado em 30 de maio de 2022</small></p>
                                     </div>
-                                    
                                   </div>
-                                  
                                 </div>
-                                
                               </div>
                               <button class="btn btn-outline-light" type="button" onClick={() => Router.push('https://www.linkedin.com/in/rodrigojove')}>Linkedin</button>
                               <button class="btn btn-outline-light" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=83998775808&text=Olá!!')}>Envie-me uma mensagem</button>
