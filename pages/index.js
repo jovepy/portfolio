@@ -24,7 +24,7 @@ function Saudacao(){
 
 function Home(){
     return (
-        <div class="container-fluid">
+        <div class="mx-auto">
         <div class="bg"></div>
         <div class="star-field">
         <div class="layer"></div>

@@ -8,7 +8,7 @@ const myLoader = ({ src, width, quality }) => {
 
 function jovepy() {
     return (
-    <div class="container-fluid" >
+    <div class="container-fluid">
     <div class="bg"></div>
     <div class="star-field">
     <div class="layer"></div>
@@ -18,14 +18,17 @@ function jovepy() {
     <div class="row">
                   <div class="col-6 col-md-4"></div>
                   <div class="col-6 col-md-4">
-                      <div class="position-absolute top-50 start-50 translate-middle">  
+                      <div class="container-fluid"> 
+                        <div class="row"><br></br><br></br></div>
                           <div class="d-grid gap-4"></div>
                             <div class="d-grid gap-4">
                             <button type="button" class="btn-close btn-close-white" type="button" onClick={() => Router.push('/')}></button>
                               <div class="card mb-3">
                                 <div class="row g-0">                                    
                                   <div class="col-md-4">
-                                  <Image loader={myLoader} src="images/perfilalt.png" alt="Rosto de Jovepy" width={300} height={300} class="profile"/>
+                                    <div class='text-center'>
+                                  <Image loader={myLoader} src="images/perfilalt.png" alt="Rosto de Jovepy" width={200} height={200} class="profile"/>
+                                    </div>
                                   </div>
                                   <div class="col-md-8">
                                     <div class="card-body">
