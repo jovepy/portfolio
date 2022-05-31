@@ -1,10 +1,6 @@
-import Image from 'next/image';
 import React from 'react'
 import Router from 'next/router';
 
-const myLoader = ({ src, width, quality }) => {
-  return `./${src}?w=${width}&q=${quality || 75}`
-}
 
 function jovepy() {
     return (
