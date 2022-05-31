@@ -24,7 +24,7 @@ function jovepy() {
                                   <div class="col-md-4">
                                     <div class='text-center'>
                                     <div class='row'><br></br></div>
-                                      <img src="images/perfilalt.png"  class="profile"/>
+                                      <img src="/images/perfilalt.png"  class="profile"/>
                                     </div>
                                   </div>
                                   <div class="col-md-8">
