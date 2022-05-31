@@ -1,6 +1,10 @@
 import React from 'react'
 import Router from 'next/router';
+import Image from 'next/image';
 
+const myLoader = ({ src, width, quality }) => {
+  return `./${src}?w=${width}&q=${quality || 75}`
+}
 
 function jovepy() {
     return (
@@ -11,7 +15,6 @@ function jovepy() {
     <div class="layer"></div>
     <div class="layer"></div>
     <div class="d-grid gap-3">
-    <div class="row"><br></br></div>
     <div class="row">
                   <div class="col-6 col-md-4"></div>
                   <div class="col-6 col-md-4">
@@ -20,12 +23,12 @@ function jovepy() {
                             <div class="d-grid gap-4">
                             <button type="button" class="btn-close btn-close-white" type="button" onClick={() => Router.push('/')}></button>
                               <div class="card mb-3">
-                                <div class="row g-0">                            
+                                <div class="row g-0">                                    
                                   <div class="col-md-4">
-                                    <div class='text-center'>
-                                    <div class='row'><br></br></div>
-                                      <img src="/images/perfil.png"  class="profile"/>
-                                    </div>
+                                    <div class="text-center">
+                                    <div class="row"><br></br></div>
+                                    <img loader={myLoader} src="./images/perfilalt.png" alt="Rosto de Jovepy" width={300} height={300} class="profile"/>
+                                  </div>
                                   </div>
                                   <div class="col-md-8">
                                     <div class="card-body">
