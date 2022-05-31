@@ -7,6 +7,9 @@
 .profile   {
     border-radius: 50%;
     background-position-x: center;
+    width: 150px;
+    height: 150px;
+    position: center;
 }
 
 .bg {
@@ -114,5 +117,9 @@
 }
 .star-field .layer:nth-child(3) {
     animation: sf-fly-by-3 5s linear infinite;
+    overflow: scroll
+}
+
+.card-container{
     overflow: scroll
 }

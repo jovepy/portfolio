@@ -1,11 +1,6 @@
 //import Head from 'next/head';
 import Router from 'next/router';
-import Image from 'next/image';
 import React from 'react'
-
-const myLoader = ({ src, width, quality }) => {
-    return `./${src}?w=${width}&q=${quality || 75}`
-  }
 
 
 function Saudacao(){
@@ -30,6 +25,7 @@ function Home(){
         <div class="layer"></div>
         <div class="layer"></div>
         <div class="layer"></div>
+        <div class="row"><br></br></div>
         <div class="row">
                   <div class="col-6 col-md-4"></div>
                   <div class="col-6 col-md-4">

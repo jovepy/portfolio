@@ -1,6 +1,6 @@
-import Image from 'next/image';
 import React from 'react'
 import Router from 'next/router';
+import Image from 'next/image';
 
 const myLoader = ({ src, width, quality }) => {
   return `./${src}?w=${width}&q=${quality || 75}`
@@ -15,6 +15,7 @@ function jovepy() {
     <div class="layer"></div>
     <div class="layer"></div>
     <div class="d-grid gap-3">
+    <div class='row'><br></br></div>
     <div class="row">
                   <div class="col-6 col-md-4"></div>
                   <div class="col-6 col-md-4">
@@ -26,9 +27,10 @@ function jovepy() {
                               <div class="card mb-3">
                                 <div class="row g-0">                                    
                                   <div class="col-md-4">
-                                    <div class='text-center'>
-                                  <Image loader={myLoader} src="images/perfilalt.png" alt="Rosto de Jovepy" width={200} height={200} class="profile"/>
-                                    </div>
+                                    <div class="text-center">
+                                    <div class="row"><br></br></div>
+                                    <img loader={myLoader} src="./images/perfilalt.png" alt="Rosto de Jovepy" width={150} height={150} class="profile"/>
+                                  </div>
                                   </div>
                                   <div class="col-md-8">
                                     <div class="card-body">
