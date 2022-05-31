@@ -17,7 +17,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -3;
+    z-index: -1;
     overflow: scroll;
 }
 .bg:before {
@@ -29,37 +29,43 @@
     z-index: -1;
     top: 0;
     left: 0;
-    opacity: 0.3;
+    opacity: 0.2;
     overflow: scroll
 }
 @keyframes sf-fly-by-1 {
     from {
         transform: translateZ(-600px);
         opacity: 0.5;
+        overflow: scroll
     }
     to {
         transform: translateZ(0);
         opacity: 0.5;
+        overflow: scroll
     }
 }
 @keyframes sf-fly-by-2 {
     from {
         transform: translateZ(-1200px);
         opacity: 0.5;
+        overflow: scroll
     }
     to {
         transform: translateZ(-600px);
         opacity: 0.5;
+        overflow: scroll
     }
 }
 @keyframes sf-fly-by-3 {
     from {
         transform: translateZ(-1800px);
         opacity: 0.5;
+        overflow: scroll
     }
     to {
         transform: translateZ(-1200px);
         opacity: 0.5;
+        overflow: scroll
     }
 }
 .star-field {
@@ -96,13 +102,17 @@
     height: 4px;
     width: 4px;
     border-radius: 3px;
+    overflow: scroll
 }
 .star-field .layer:nth-child(1) {
     animation: sf-fly-by-1 5s linear infinite;
+    overflow: scroll
 }
 .star-field .layer:nth-child(2) {
     animation: sf-fly-by-2 5s linear infinite;
+    overflow: scroll
 }
 .star-field .layer:nth-child(3) {
     animation: sf-fly-by-3 5s linear infinite;
+    overflow: scroll
 }
