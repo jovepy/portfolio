@@ -36,7 +36,7 @@ function Home(){
                       <div class="position-absolute top-50 start-50 translate-middle">
                           <div class="d-grid gap-4">
                               <div class='greeting'>
-                                    <h1 ><Saudacao /> Seja bem-vindo ao meu ecossistema</h1>
+                                    <h1 ><Saudacao /> Seja bem-vindo ao meu portfólio</h1>
                                     <p> Aqui você encontrará o caminho para todos os meus projetos</p>
                               </div>
                               <button class="btn btn-outline-light" type="button" onClick={() => Router.push('/jovepy')} >Jove.py</button>
