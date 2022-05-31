@@ -15,6 +15,7 @@ function jovepy() {
     <div class="layer"></div>
     <div class="layer"></div>
     <div class="d-grid gap-3">
+    <div class='row'><br></br></div>
     <div class="row">
                   <div class="col-6 col-md-4"></div>
                   <div class="col-6 col-md-4">
@@ -27,7 +28,7 @@ function jovepy() {
                                   <div class="col-md-4">
                                     <div class="text-center">
                                     <div class="row"><br></br></div>
-                                    <img loader={myLoader} src="./images/perfilalt.png" alt="Rosto de Jovepy" width={300} height={300} class="profile"/>
+                                    <img loader={myLoader} src="./images/perfilalt.png" alt="Rosto de Jovepy" width={150} height={150} class="profile"/>
                                   </div>
                                   </div>
                                   <div class="col-md-8">
