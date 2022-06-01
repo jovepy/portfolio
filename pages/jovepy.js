@@ -44,7 +44,7 @@ function jovepy() {
                                 </div>
                               </div>
                               <button class="btn btn-outline-light" type="button" onClick={() => Router.push('https://www.linkedin.com/in/rodrigojove')}>Linkedin</button>
-                              <button class="btn btn-outline-light" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=83998775808&text=Olá!!')}>Envie-me uma mensagem</button>
+                              <button class="btn btn-outline-light" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
                               <div class="row"></div>
                             </div>
                             
