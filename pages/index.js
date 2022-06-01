@@ -28,7 +28,7 @@ function Home(){
         <div class="row"><br></br></div>
         <div class="row">
                   <div class="col-6 col-md-4"></div>
-                  <div class="col-6 col-md-4">
+                  <div class="col-md-6 offset-md-3">
                       <div class="row align-items-center">
                           <div class="d-grid gap-4">
                               <div class='greeting'>
