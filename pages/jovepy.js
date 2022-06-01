@@ -15,21 +15,22 @@ function jovepy() {
     <div class="layer"></div>
     <div class="layer"></div>
     <div class="d-grid gap-3">
-    <div class='row'><br></br></div>
-    <div class="row">
-                  <div class="col-6 col-md-4"></div>
-                  <div class="col-6 col-md-4">
-                      <div class="container-fluid"> 
-                        <div class="row"><br></br><br></br></div>
-                          <div class="d-grid gap-4"></div>
-                            <div class="d-grid gap-4">
-                            <button type="button" class="btn-close btn-close-white" type="button" onClick={() => Router.push('/')}></button>
-                              <div class="card mb-3">
+      <div class="container-fluid">
+        <div><br></br></div>
+        <div class="row align-items-center">
+          <div class="col-6 col-md-4"></div>
+          <div class=".col-md-6 .offset-md-3">
+            <div class="d-grid gap-4">
+            <button type="button" class="btn-close btn-close-white" type="button" onClick={() => Router.push('/')}></button>
+                              <div class="card mb-4">
                                 <div class="row g-0">                                    
                                   <div class="col-md-4">
                                     <div class="text-center">
                                     <div class="row"><br></br></div>
+                                    <div class='mx-auto'>
                                     <img loader={myLoader} src="./images/perfilalt.png" alt="Rosto de Jovepy" width={150} height={150} class="profile"/>
+                                    <div><br></br></div>
+                                    </div>
                                   </div>
                                   </div>
                                   <div class="col-md-8">
@@ -47,17 +48,14 @@ function jovepy() {
                               <div class="row"></div>
                             </div>
                             
-                          </div>
-  
-                          
-                      </div>
-                      
-                  </div>
-                  <div class="col-6 col-md-4"></div>
-                  
-              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-6 col-md-4"></div>
+          </div>
         </div>
-        </div>
+      </div>
+    
 
     )
 
