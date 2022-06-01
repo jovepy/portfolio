@@ -28,7 +28,7 @@ function jovepy() {
                                     <div class="text-center">
                                     <div class="row"><br></br></div>
                                     <div class='mx-auto'>
-                                    <img loader={myLoader} src="./images/perfilalt.png" alt="Rosto de Jovepy" width={150} height={150} class="profile"/>
+                                    <img loader={myLoader} src="./perfilalt.png" alt="Rosto de Jovepy" width={150} height={150} class="profile"/>
                                     <div><br></br></div>
                                     </div>
                                   </div>
@@ -39,7 +39,7 @@ function jovepy() {
                                       <p class="card-text">print(me.read())</p>
                                       <p class="font-monospace"> >>>26 anos, Graduando em Economia e Desenvolvedor Python</p>
                                       <p class="card-text"><small class="text-muted">atualizado em 30 de maio de 2022</small></p>
-                                    </div>
+                                    </div>  
                                   </div>
                                 </div>
                               </div>
