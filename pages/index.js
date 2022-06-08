@@ -38,7 +38,7 @@ function Home(){
                               <button class="btn btn-outline-light" type="button" onClick={() => Router.push('/jovepy')} >Jove.py</button>
                               <button class="btn btn-outline-light" type="button" onClick={() => Router.push('https://jovepy.github.io/empreenda/')} >Empreenda</button>
                               <button class="btn btn-outline-light" type="button" onClick={() => Router.push('https://github.com/jovepy/Opere-com-derivativos')} >Opere com Derivativos</button>
-                              <button class="btn btn-outline-light" type="button" onClick={() => Router.push('https://github.com/jovepy/Fundos_Investimento_B3')} >Invista com FI's</button>  
+                              <button class="btn btn-outline-light" type="button" onClick={() => Router.push('https://jovepy-django.herokuapp.com/')} >Asessor de Investimentos Digital</button>  
                               <div class="row"></div>
                           </div>
                       </div>
